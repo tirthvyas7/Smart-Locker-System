@@ -118,7 +118,7 @@
       Serial.println(message);
       // message.remove(2,58);
       // message.remove(62,10);
-      message =message.substring(51,54);
+      message =message.substring(51,54);//Truncate the message string to get the password and remove unwanted junk from the string; the length works for a SIM in which owners number is not saved
       Serial.println(message);
       Serial.println("Exitting recieve_msg funtion");
   }
