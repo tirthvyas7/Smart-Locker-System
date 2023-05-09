@@ -1,6 +1,6 @@
 # Smart-Locker-System
 ## 1. Steps For Unlocking 
- 1. The RFID Card is brought near to the RC522 RFIC reader.
+ 1. The RFID Card is brought near to the RC522 RFID reader.
  2. If your card is correct, you will receive an SMS on the registerd number stating **Enter Password**.
  3. Send your password through SMS to the same number from which you received your Enter Passsword message(locker's number).
  4. If your password is correct, the servo motor will move giving you the access of the Locker.
